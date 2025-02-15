@@ -15,6 +15,8 @@ class MyAsset {
 
   static const String frame3 = "assets/images/Frame (3).svg";
 
+  static const String frame4 = "assets/images/Frame (4).svg";
+
   static const String graph = "assets/images/graph.svg";
 
   static const String group = "assets/images/Group 237677.svg";
@@ -28,5 +30,7 @@ class MyAsset {
   static const String settings = "assets/images/setting-2.svg";
 
   static const String wallet = "assets/images/wallet-2.svg";
+
+  static const String logout = "assets/images/logout.svg";
 
 }
