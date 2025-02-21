@@ -12,8 +12,11 @@ class AllExpnsesItemsListView extends StatefulWidget {
 
 class _AllExpnsesItemsListViewState extends State<AllExpnsesItemsListView> {
   final items=[
+ // ignore: prefer_const_constructors
  AllExpnsesItemModel(img: MyAsset.money, title: 'Balance', date: 'April 2022', price: '\$20,129'),
+ // ignore: prefer_const_constructors
  AllExpnsesItemModel(img: MyAsset.cardRecieve, title: 'Income', date: 'April 2022', price: '\$20,129'),
+ // ignore: prefer_const_constructors
  AllExpnsesItemModel(img: MyAsset.cardRecieve, title: 'Expenses', date: 'April 2022', price: '\$20,129'),
 
 ];

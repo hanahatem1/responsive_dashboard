@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:responsive_project/models/drawer_item_model.dart';
 import 'package:responsive_project/utils/app_images.dart';

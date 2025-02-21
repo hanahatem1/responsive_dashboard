@@ -14,11 +14,11 @@ class InActiveExpnsesItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 20,vertical: 16),
+      padding:const EdgeInsets.symmetric(horizontal: 20,vertical: 16),
       decoration: BoxDecoration(
          color: Colors.white,
          borderRadius: BorderRadius.circular(12),
-         border: Border.all(color: Color(0xffF1F1F1))
+         border: Border.all(color:const Color(0xffF1F1F1))
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -58,9 +58,9 @@ class ActiveExpnsesItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 20,vertical: 16),
+      padding:const EdgeInsets.symmetric(horizontal: 20,vertical: 16),
       decoration: BoxDecoration(
-         color: Color(0xff4EB7F2),
+         color:const Color(0xff4EB7F2),
          borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
